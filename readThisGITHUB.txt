@@ -45,10 +45,26 @@ merge:
         git diff main
 
         //merge
-        git merge main
+        git merge branchname
 
     2. pr
 
 pull:
     git pull origin main
+
+undoing:
+    1. staged
+        //un stages changes
+        git reset filename
+        
+    2. commited
+        //ONE commit rollback
+        git reset HEAD~1
+
+        //Multiple commit rollback
+        git log (copy the hashcode)
+        git reset #hashcode
+
+fork:
+
 
