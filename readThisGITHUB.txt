@@ -1,0 +1,34 @@
+clone:
+    git clone url
+
+status:
+    //check if up to date
+    // if modified/added/del
+    git status
+
+add:
+    //stage all changes to local
+    git add .
+
+commit:
+    // commit staged files to local
+    git commit -m "commit name"
+
+push:
+    //commit in remote
+    git push origin main
+
+init:
+    //initialize git 
+    git init
+
+remote:
+    //connect the init .git to a github repo
+    git remote add origin url
+
+branch:
+    //pw branch
+    git branch
+
+
+
