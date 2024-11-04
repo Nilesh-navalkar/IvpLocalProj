@@ -30,5 +30,16 @@ branch:
     //pw branch
     git branch
 
+    //switch
+    git checkout name
+
+    //create
+    git checkout -b name
+
+    //delete branch
+    git branch -d name
+
+
+branching:
 
 
