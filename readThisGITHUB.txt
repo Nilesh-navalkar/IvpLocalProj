@@ -66,5 +66,5 @@ undoing:
         git reset #hashcode
 
 fork:
-
+    just click on fork button on github
 
