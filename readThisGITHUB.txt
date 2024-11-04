@@ -44,6 +44,9 @@ merge:
         //difference bw current branch and main
         git diff main
 
+        //merge
+        git merge main
+
     2. pr
 
 pull:
