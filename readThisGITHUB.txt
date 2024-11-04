@@ -16,7 +16,7 @@ commit:
 
 push:
     //commit in remote
-    git push origin main
+    git push origin branchname
 
 init:
     //initialize git 
@@ -39,7 +39,10 @@ branch:
     //delete branch
     git branch -d name
 
+merge:
+    1. no pr
+        //difference bw current branch and main
+        git diff main
 
-branching:
-
+    2. pr
 
