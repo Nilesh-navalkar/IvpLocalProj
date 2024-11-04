@@ -46,3 +46,6 @@ merge:
 
     2. pr
 
+pull:
+    git pull origin main
+
